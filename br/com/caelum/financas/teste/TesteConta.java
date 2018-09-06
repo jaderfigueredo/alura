@@ -26,16 +26,5 @@ public class TesteConta {
 		em.getTransaction().commit();
 		em.close();
 
-		/*
-		EntityManager em2 = new JPAUtil().getEntityManager();
-		em2.getTransaction().begin();
-		
-		conta.setTitular("Leonardo");
-		em2.merge(conta);
-		
-				
-		em2.getTransaction().commit();
-		em2.close();
-		*/
 	}
 }
